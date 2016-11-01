@@ -9,24 +9,23 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
   </head>
   <style>
-    .bg {
-  background: url('images/Screenshot1.png') no-repeat center center;
-  width: 100%;
-  height: 350px; /*same height as jumbotron */
-  top:0;
-  left:0;
-  z-index: -1;
+    jumbotron{
+    position:relative;
+    background: url("images/Screenshot1.png") no-repeat center center fixed;
+    margin:0
 }
-
-.jumbotron {
-  margin-bottom: 0px;
-  height: 350px;
-  background: rgb(255,255,255,0.1);
+.jumbotron:after{
+    content:"";
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background:rgba(0,0,255,0.5);
+    z-index:-1;
 }
 </style>
   <body>
     <div class="container-fluid">
-      <div class="bg"></div>
       <div class="jumbotron jumbotron-fluid">
         <div class="container">
           <h1 class="display-3">The Life of Robert</h1>
