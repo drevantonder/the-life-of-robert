@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="16" tileheight="16" nextobjectid="18">
+ <tileset firstgid="1" name="roguelikeSheet_transparent" tilewidth="16" tileheight="16" spacing="1" tilecount="1767">
+  <image source="../Images/roguelikeSheet_transparent.png" width="968" height="526"/>
+  <terraintypes>
+   <terrain name="Sea" tile="-1"/>
+   <terrain name="Road" tile="-1"/>
+  </terraintypes>
+  <tile id="2" terrain=",,,0"/>
+  <tile id="3" terrain=",,0,0"/>
+  <tile id="4" terrain=",,0,"/>
+  <tile id="57" terrain="0,0,0,"/>
+  <tile id="58" terrain="0,0,,0"/>
+  <tile id="59" terrain=",0,,0"/>
+  <tile id="60" terrain="0,0,0,0"/>
+  <tile id="61" terrain="0,,0,"/>
+  <tile id="114" terrain="0,,0,0"/>
+  <tile id="115" terrain=",0,0,0"/>
+  <tile id="116" terrain=",0,,"/>
+  <tile id="117" terrain="0,0,,"/>
+  <tile id="118" terrain="0,,,"/>
+  <tile id="518" terrain="1,1,1,"/>
+  <tile id="519" terrain="1,1,,1"/>
+  <tile id="520" terrain=",,,1"/>
+  <tile id="521" terrain=",,1,1"/>
+  <tile id="522" terrain=",,1,"/>
+  <tile id="575" terrain="1,,1,1"/>
+  <tile id="576" terrain=",1,1,1"/>
+  <tile id="577" terrain=",1,,1"/>
+  <tile id="578" terrain="1,1,1,1"/>
+  <tile id="579" terrain="1,,1,"/>
+  <tile id="634" terrain=",1,,"/>
+  <tile id="635" terrain="1,1,,"/>
+  <tile id="636" terrain="1,,,"/>
+ </tileset>
+ <layer name="Land" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztw8EJAAAMA6F7Zf+RC51DwVVTVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVX/AS5D6mE=
+  </data>
+ </layer>
+ <layer name="Sea" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T+1lC6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAbnEAAAQ==
+  </data>
+ </layer>
+ <layer name="Ground Overlay" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T+1lC6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAbnEAAAQ==
+  </data>
+ </layer>
+ <layer name="Objects" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T+1lC6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAbnEAAAQ==
+  </data>
+ </layer>
+ <objectgroup name="Gold"/>
+ <objectgroup name="Signs"/>
+ <objectgroup name="Open Doors"/>
+ <layer name="Doors/Windows/Roofs" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T+1lC6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAbnEAAAQ==
+  </data>
+ </layer>
+ <layer name="Roof Overlay" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T+1lC6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAbnEAAAQ==
+  </data>
+ </layer>
+</map>

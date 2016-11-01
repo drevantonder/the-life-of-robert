@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="16" tileheight="16" nextobjectid="46">
+ <tileset firstgid="1" name="roguelikeSheet_transparent" tilewidth="16" tileheight="16" spacing="1" tilecount="1767">
+  <image source="../Images/roguelikeSheet_transparent.png" width="968" height="526"/>
+  <terraintypes>
+   <terrain name="Sea" tile="-1"/>
+   <terrain name="Road" tile="-1"/>
+  </terraintypes>
+  <tile id="2" terrain=",,,0"/>
+  <tile id="3" terrain=",,0,0"/>
+  <tile id="4" terrain=",,0,"/>
+  <tile id="57" terrain="0,0,0,"/>
+  <tile id="58" terrain="0,0,,0"/>
+  <tile id="59" terrain=",0,,0"/>
+  <tile id="60" terrain="0,0,0,0"/>
+  <tile id="61" terrain="0,,0,"/>
+  <tile id="114" terrain="0,,0,0"/>
+  <tile id="115" terrain=",0,0,0"/>
+  <tile id="116" terrain=",0,,"/>
+  <tile id="117" terrain="0,0,,"/>
+  <tile id="118" terrain="0,,,"/>
+  <tile id="518" terrain="1,1,1,"/>
+  <tile id="519" terrain="1,1,,1"/>
+  <tile id="520" terrain=",,,1"/>
+  <tile id="521" terrain=",,1,1"/>
+  <tile id="522" terrain=",,1,"/>
+  <tile id="575" terrain="1,,1,1"/>
+  <tile id="576" terrain=",1,1,1"/>
+  <tile id="577" terrain=",1,,1"/>
+  <tile id="578" terrain="1,1,1,1"/>
+  <tile id="579" terrain="1,,1,"/>
+  <tile id="634" terrain=",1,,"/>
+  <tile id="635" terrain="1,1,,"/>
+  <tile id="636" terrain="1,,,"/>
+ </tileset>
+ <layer name="Land" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt1jkOgDAMBMBU/P/J1HRA8IVmpalJ1hbKsdY6AAAAAAAAAAAAAAAAAAAAAAAIlZHKu3Tpr6r7u2fJ7GbqHkel237unm16Ju1hl94ju6i+27TszqLjnk/Nk84m/Xf+Hm+THql6D8k1X88hah5vv5W5I1FdVs+j2xmruwQAAAAAAAAAAAAAAAAAAAAAyHYCDZvY5Q==
+  </data>
+ </layer>
+ <layer name="Sea" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt1ltuwjAQBdBItJvqa1PQdvsNH5Eiy4PdJGNodY40PwiTeG7GYZoAAAAAAAAAAAAAAAAAAAAAAMh2muspuUYp9/J8h2vWKrqP2trLXO/JNcpbcd3zlJfJ0sue/p2nek4jej86j/UzVttfLZNlzdasTsG1jqqXub4q9XrQ7+/ROg+2PJ+X4PMot5HP9TWL76AX5fz/Jst17Xn3jJzpKLdRdSuLciajvkfr10bu6S/XR9G36Cy+lVuPrHPwv1VrPpeZ2JNFTc85qPJzuDryv0nr3RXNYbkuc1573q+tyshhsXU2avtq3ednZU1tXfm9nnx6+5zZyyNEPXqkffXc46P3GQAAAAAAAAAAAAAAAAAAAAAgww83NrbD
+  </data>
+ </layer>
+ <layer name="Ground Overlay" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt3cEJwjAYhuGiHtRJ3MMJXMtxuohu4gqeRK0N9GDaL/o8EIScgm9/CkJt1+W6rpc+QaZ95e9lt+m6w/pz7Qv7r2u7qXs2nm6r8f1zYZ/vMB+ZToPr/jEf5mFe5qMNpfvHcI74LvPRhtJ8UJf5aIP5yKJHlkvjv18dlz4Ab5J69EsfIIAeyzkWVop/65Gmn7CYTz/xk3mYj2xJ9zIAAAAAAAAAAAAASOE/prJ4hjWLHln0yNL6M94AAAAAAAAAAAAA8OvS3jXy7/SoZ8p7ImosxumRRY8semTRI4seWfTIokcWPbLokUWPLHpk0SOLHln0yKJHFj2y6JHlDmNdpoI=
+  </data>
+ </layer>
+ <layer name="Objects" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztnctu1DAUhjNJhkXfoEsECy7r0hVCvAJISJQVV3Gf4aIWJJZsQBUVqO8Q+iy074F4Ck4UBzxWJmMnvpzY/ycdOZOZSWJ/PrYzHXWybDNbxf/tJW2/sRhvxbGXeVNWotwV5Y4oryn7F9Lzt+calYgUVz7GkJoP0/xYSm2t62Oh9P9KyYvXSr5UUsnZx+fc/jF9+BgDZx+2kL2a+nhF8ZJiYeBjR+n/bb787MmTo7zJpxR8yPiYz8cAH/Z9VEpenOTd+3eVfFlo5IeLMdwVOteK/OCFz/uPE2Xe+HdeZX8lzSeufHDNqz4fR6VZ+98pV98Xa34cUL0+UHy0UD8V2cdh2ayd1NBx0fW+eg32bd4dNeuek4OzDzlsudnSOM6mccxGHkyFbYr3VN93SuwH9nGx5OnD9bxQ0vHvzZrtu1Ses3S+9rpNfbRj0TFTH66o235Obfadyhui7a5TeTyzex4TH3W7/xHX8jtf3R87+1TfU2r7AyrPhIMfkhtbwMdwQuWH/JnVBfH688Xqftesmxd83UfU88aeGLP2OsYuW9e1ycctzfWm6bqU6/3YOn6JsepUKc8850frYzvvLzneJ+jArV+Eyg/QjY4P+X75q2j3LxO4jx5LiNzRmc+BP3z60O1v3MZ0n/T5SLldQuEiP+BxOJg/eAEf4Vn3fR8QHh0fmA/8kXJ+uOxnrj5PHAtyy4yY8iMG99x8cGnTUNcxxgeXtosJbvnBnTF90PT7u8A/qiPOPlIcDzn7SJFQPlLs+zogP3iRgo8p5WIKPqYE/l7LC+QHL+CDF/DBC/jgxU34YMUn+ADMwTofABAbGNcAAAAA92C+jQ84NQPtBQB/YsvT2OoD0iB0vw15/tB1BwCkB8YdoEtsfSW2+gAwBWLOu5jrBoAvkEcgFtCXAQAtqY0HqdUX6OGyX+j8nlzX79ANfW8bhxH+b/3QPCuy7DnFi0LvsQy33zrgMhZemmXZ/VlTPqK4TPGA4grFQ4qr4vkuYvIRA0+onR9TPC30HsvABy/ggxfwwQv46GfI3Iz53B1cfJiuO7msU20zZK2E9VU8wAcvOPmIdcwzgZMPjnCZz0EDfNjDxviH9VXawAcvXPrAeskc5Ec3fwFNGi7b
+  </data>
+ </layer>
+ <objectgroup name="Gold">
+  <object id="20" gid="549" x="32" y="176" width="16" height="16">
+   <properties>
+    <property name="Worth" value="1"/>
+   </properties>
+  </object>
+  <object id="22" gid="549" x="64" y="544" width="16" height="16">
+   <properties>
+    <property name="Worth" value="1"/>
+   </properties>
+  </object>
+  <object id="23" gid="549" x="32" y="304" width="16" height="16">
+   <properties>
+    <property name="Worth" value="1"/>
+   </properties>
+  </object>
+  <object id="24" gid="549" x="0" y="800" width="16" height="16">
+   <properties>
+    <property name="Worth" value="1"/>
+   </properties>
+  </object>
+  <object id="25" gid="549" x="304" y="288" width="16" height="16">
+   <properties>
+    <property name="Worth" value="1"/>
+   </properties>
+  </object>
+  <object id="26" gid="549" x="624" y="160" width="16" height="16">
+   <properties>
+    <property name="Worth" value="1"/>
+   </properties>
+  </object>
+  <object id="27" gid="549" x="1392" y="208" width="16" height="16">
+   <properties>
+    <property name="Worth" value="1"/>
+   </properties>
+  </object>
+  <object id="30" gid="549" x="992" y="368" width="16" height="16">
+   <properties>
+    <property name="Worth" value="1"/>
+   </properties>
+  </object>
+  <object id="31" gid="549" x="1200" y="48" width="16" height="16">
+   <properties>
+    <property name="Worth" value="1"/>
+   </properties>
+  </object>
+  <object id="32" gid="549" x="208" y="1360" width="16" height="16">
+   <properties>
+    <property name="Worth" value="1"/>
+   </properties>
+  </object>
+  <object id="33" gid="549" x="32" y="48" width="16" height="16">
+   <properties>
+    <property name="Worth" value="1"/>
+   </properties>
+  </object>
+  <object id="34" gid="549" x="16" y="400" width="16" height="16">
+   <properties>
+    <property name="Worth" value="1"/>
+   </properties>
+  </object>
+  <object id="35" gid="549" x="32" y="1024" width="16" height="16">
+   <properties>
+    <property name="Worth" value="1"/>
+   </properties>
+  </object>
+  <object id="36" gid="549" x="1536" y="1120" width="16" height="16">
+   <properties>
+    <property name="Worth" value="1"/>
+   </properties>
+  </object>
+  <object id="37" gid="549" x="688" y="752" width="16" height="16">
+   <properties>
+    <property name="Worth" value="1"/>
+   </properties>
+  </object>
+  <object id="38" gid="549" x="352" y="240" width="16" height="16">
+   <properties>
+    <property name="Worth" value="1"/>
+   </properties>
+  </object>
+  <object id="39" gid="549" x="368" y="288" width="16" height="16">
+   <properties>
+    <property name="Worth" value="1"/>
+   </properties>
+  </object>
+  <object id="40" gid="549" x="336" y="288" width="16" height="16">
+   <properties>
+    <property name="Worth" value="1"/>
+   </properties>
+  </object>
+  <object id="41" gid="549" x="400" y="288" width="16" height="16">
+   <properties>
+    <property name="Worth" value="1"/>
+   </properties>
+  </object>
+  <object id="42" gid="549" x="1488" y="1312" width="16" height="16">
+   <properties>
+    <property name="Worth" value="1"/>
+   </properties>
+  </object>
+  <object id="43" gid="549" x="608" y="1344" width="16" height="16">
+   <properties>
+    <property name="Worth" value="1"/>
+   </properties>
+  </object>
+  <object id="44" gid="549" x="944" y="1200" width="16" height="16">
+   <properties>
+    <property name="Worth" value="1"/>
+   </properties>
+  </object>
+  <object id="45" gid="549" x="0" y="848" width="16" height="16">
+   <properties>
+    <property name="Worth" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Signs">
+  <object id="14" gid="21" x="160" y="272" width="16" height="16">
+   <properties>
+    <property name="Message" value="There is a way"/>
+   </properties>
+  </object>
+  <object id="15" gid="21" x="160" y="272" width="16" height="16">
+   <properties>
+    <property name="Message" value="There is a way across"/>
+   </properties>
+  </object>
+  <object id="17" gid="20" x="640" y="192" width="16" height="16">
+   <properties>
+    <property name="Message" value="Where will you spend eternity?"/>
+   </properties>
+  </object>
+  <object id="19" gid="679" x="640" y="144" width="16" height="16">
+   <properties>
+    <property name="Message" value="Andre van Tonder"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Open Doors">
+  <object id="13" gid="261" x="1392" y="192" width="16" height="16">
+   <properties>
+    <property name="Connected" value="Houses/3.tmx"/>
+    <property name="GoX" value="1"/>
+    <property name="GoY" value="5"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="Doors/Windows/Roofs" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt1l1Kw0AUBtAR0gcruAddg27AgroQXY2uSh98VVDXIqjgBBsIpaGTyG1jeg5chgkJgfn686XUz+EspeMN09wzL7i3vofh5DEuJXlc5DnKs5BHuJI8ah8Hv6s8YpXm0ZBHrJI8+ow8/kYe4yKPMs9VSm95XqrY9zTdaXU25TTveG4x0Tzanf91mc17UDZNd2qvJXmse26q2p3/Ms9VnustfvZK8tg3tzt8d/v7ue53bB/z2KWuc5fHbqye+2nHdbaj/f9Vcp14XX1pyj0KAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAmIaHKqWnPI9V2Z4Y97OU7vJ81uec16/leW/aE+ssn/V3PuvzWdmeWDc9V+Kd9NzDfzSkK+lXcYZ0Jf0qzpCupF/FGdKV9KtYQ7qSfsU+0K/GRb8aF/1qXPSr8dGvACj1A8t/h7Y=
+  </data>
+ </layer>
+ <layer name="Roof Overlay" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt1j1OAzEQBtCA4DjcAqp03AcqRMOlsw1SFJH9Ydf2ePyetIUVKRmvP0/mdIJxnB9bV0AJzhXG0NNd76lWxnZEVl8e9n8HEN/3c+sKqKHXGabXugGiu9dfo/bdqHXd01u91CEX8D/uDjWtzZtc/s17ycE5AkfRT/rm/KihZM6iZjhqXZTn7I8X5Z1GqWOLHmsmlz0ZlN/4ejqjnmqFI8k+xOAuUoJcAQBAPuZ8IBt9DQDK83+bjzPdxvuC+LLd02z7YQytc9vy91vvHRiPvsNa2bKSbT/Qg8z3LvPeoBb3iCxkGfg1Wj8Ybb+sEz0XP0/z66+bNSyJkvnX6fmYnrfp+ZxZA8CcpVnpev1+89nSGthn69wZZU4FqCFiz9szK22ZyYCxRex/QEz6BeR0ARR/HUY=
+  </data>
+ </layer>
+</map>

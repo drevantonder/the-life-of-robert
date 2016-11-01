@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="4" height="7" tilewidth="16" tileheight="16" nextobjectid="7">
+ <tileset firstgid="1" name="roguelikeSheet_transparent" tilewidth="16" tileheight="16" spacing="1" tilecount="1767">
+  <image source="../Images/roguelikeSheet_transparent.png" width="968" height="526"/>
+ </tileset>
+ <layer name="Land" width="4" height="7">
+  <data encoding="base64" compression="zlib">
+   eJw7z8rAcJ6OGABBDxcx
+  </data>
+ </layer>
+ <layer name="Sea" width="4" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAvAAAAcAAB
+  </data>
+ </layer>
+ <layer name="Ground Overlay" width="4" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAvAAAAcAAB
+  </data>
+ </layer>
+ <layer name="Objects" width="4" height="7">
+  <data encoding="base64" compression="zlib">
+   eJzby8TAsBuK9wHxVyDOYobgr1B+KjMEw/gg0MaAys9lhLB1mCH8dgYIO40ZoT8DiAEWzQ/Z
+  </data>
+ </layer>
+ <objectgroup name="Signs"/>
+ <objectgroup name="Open Doors">
+  <object id="2" gid="261" x="16" y="112" width="16" height="16">
+   <properties>
+    <property name="Connected" value="Maps/1.tmx"/>
+    <property name="GoX" value="24"/>
+    <property name="GoY" value="88"/>
+   </properties>
+  </object>
+  <object id="6" gid="95" x="16" y="48" width="16" height="16">
+   <properties>
+    <property name="Connected" value="Houses/5.tmx"/>
+    <property name="GoX" value="1"/>
+    <property name="GoY" value="5"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="Doors/Windows/Roofs" width="4" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAvAAAAcAAB
+  </data>
+ </layer>
+ <layer name="Roof Overlay" width="4" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAvAAAAcAAB
+  </data>
+ </layer>
+</map>
