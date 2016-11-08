@@ -6,7 +6,7 @@ from threading import Timer
 
 class Wolf(pygame.sprite.Sprite):
     def __init__(self,x,y,window,Land,player):
-        super().__init__()
+        pygame.sprite.Sprite.__init__(self)
         self.frames = {
         "down" : pygame.image.load("Images/Wolf/1.png").convert_alpha(),
         "right" : pygame.image.load("Images/Wolf/2.png").convert_alpha(),

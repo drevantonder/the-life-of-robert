@@ -3,7 +3,7 @@ import utils
 
 class Message(pygame.sprite.Sprite):
     def __init__(self,x,y,message,window):
-        super().__init__()
+        pygame.sprite.Sprite.__init__(self)
         font_size = 16
         self.text = utils.draw_font(message,font_size)
         self.image = pygame.Surface([self.text.get_width()+16,self.text.get_height()+8])

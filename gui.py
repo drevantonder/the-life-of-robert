@@ -4,7 +4,7 @@ import utils
 
 class Button(pygame.sprite.Sprite):
     def __init__(self,text,x,y,color=settings.BUTTON_COLOR):
-        super().__init__()
+        pygame.sprite.Sprite.__init__(self)
         font_size = 24
         text = utils.draw_font(text,font_size)
         self.image = pygame.Surface([text.get_width()+16,text.get_height()+8])

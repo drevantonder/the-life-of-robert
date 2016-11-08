@@ -1,16 +1,19 @@
 import pygame
 import math
 import utils
+from threading import Timer
 
 class Gold(pygame.sprite.Sprite):
     def __init__(self,x,y,window,image,worth):
-        super().__init__()
+        pygame.sprite.Sprite.__init__(self)
         self.image = image
         self.worth = int(worth)
         self.rect = image.get_rect()
         self.x = x
         self.y = y
         self.position(window)
+
+
     def position(self,window):
         self.rect.x = window.x + self.x*16
         self.rect.y = window.y + self.y*16
@@ -18,22 +21,9 @@ class Gold(pygame.sprite.Sprite):
 
 class AnimatedGold(pygame.sprite.Sprite):
     def __init__(self,gold):
-        super().__init__()
-        self.image = gold.image
+        pygame.sprite.Sprite.__init__(self)
+        self.image = pygame.transform.scale(gold.image,(24,24))
         self.rect = self.image.get_rect()
-        self.rect.x = gold.rect.x
-        self.rect.y = gold.rect.y
-
-    def move(self):
-        screen = pygame.display.get_surface()
-        d = utils.distance(self.rect.x,self.rect.y,screen.get_width(),screen.get_width())
-        leg = d/30
-
-        dx = screen.get_width() - self.rect.x
-        dy = screen.get_width() - self.rect.y
-        rads = math.atan2(-dy,dx)
-        rads %= 2*math.pi
-        degs = math.degrees(rads)
-
-        self.rect.x +=  leg*math.sin(degs)
-        self.rect.y +=  leg*math.cos(degs)
+        self.rect.x = gold.rect.x - 6
+        self.rect.y = gold.rect.y - 6
+        Timer(0.2,self.kill).start()

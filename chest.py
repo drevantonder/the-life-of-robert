@@ -2,7 +2,7 @@ import pygame
 
 class Chest(pygame.sprite.Sprite):
     def __init__(self,x,y,window,image,Map):
-        super().__init__()
+        pygame.sprite.Sprite.__init__(self)
         self.image = image
         self.map = Map
         self.gold = 0

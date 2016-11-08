@@ -1,9 +1,8 @@
 import pygame
-from threading import Timer
 
 class Player(pygame.sprite.Sprite):
     def __init__(self,x,y,window):
-        super().__init__()
+        pygame.sprite.Sprite.__init__(self)
         self.frames = {
         "down" : pygame.image.load("Images/Bob/1.png").convert_alpha(),
         "right" : pygame.image.load("Images/Bob/2.png").convert_alpha(),
